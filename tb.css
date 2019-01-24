@@ -24,14 +24,14 @@ body {
 .wrapper .top-nav-wrap {
     width: 100%;
     height: 105px;
-    background-color: rgb(245, 241, 241);
+    /* background-color: rgb(245, 241, 241); */
 
 }
 
 .wrapper .top-nav-wrap .top-nav {
     width: 1190px;
     height: 35px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     /* 高度0 左右自动 居中效果 */
     margin: 0 auto;
 }
@@ -68,12 +68,45 @@ body {
     font-size: 12px;
 }
 
+.wrapper .top-nav-wrap .top-nav a.login {
+    color: #f40;
+}
+
 .wrapper .top-nav-wrap .top-nav .bg-pic {
     display: inline-block;
     width: 6px;
     height: 3px;
-    background-image:url(img/xsj.png);
-    background-size:100% 100%;
+    background-size: 100% 100%;
+    vertical-align: middle;
+}
+
+.wrapper .top-nav-wrap .top-nav .c-span {
+    padding: 0 6px;
+}
+
+.wrapper .top-nav-wrap .top-nav .bg-pic.xsj-pic {
+    background-image: url(img/xsj.png);
+}
+
+.wrapper .top-nav-wrap .top-nav .bg-pic.shopCar-pic {
+    background-image: url(img/gwc.png);
+    width: 12px;
+    height: 12px;
+
+}
+
+.wrapper .top-nav-wrap .top-nav .bg-pic.like-pic {
+    background-image: url(img/star.png);
+    width: 12px;
+    height: 12px;
+
+}
+
+.wrapper .top-nav-wrap .top-nav .bg-pic.web-nav-pic {
+    background-image: url(img/dh.png);
+    width: 8px;
+    height: 8px;
+
 }
 
 .wrapper .search-wrap {
