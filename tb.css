@@ -13,7 +13,8 @@ body {
     color: #3c3c3c;
     overflow-x: hidden;
 }
-.wrapper{
+
+.wrapper {
     width: 100%;
     height: 100%;
 }
@@ -24,41 +25,57 @@ body {
     width: 100%;
     height: 105px;
     background-color: rgb(245, 241, 241);
-   
+
 }
-.wrapper .top-nav-wrap .top-nav{
+
+.wrapper .top-nav-wrap .top-nav {
     width: 1190px;
     height: 35px;
     border: 1px solid black;
     /* 高度0 左右自动 居中效果 */
-    margin: 0 auto;         
+    margin: 0 auto;
 }
-.wrapper .top-nav-wrap .top-nav .top-nav-l{
+
+.wrapper .top-nav-wrap .top-nav .top-nav-l {
     float: left;
 }
-.wrapper .top-nav-wrap .top-nav .top-nav-r{
+
+.wrapper .top-nav-wrap .top-nav .top-nav-r {
     float: right;
 }
-.wrapper .top-nav-wrap .top-nav ul li{
+
+.wrapper .top-nav-wrap .top-nav ul li {
     float: left;
     margin-right: 7px;
 }
-.wrapper .top-nav-wrap .top-nav a{
+
+.wrapper .top-nav-wrap .top-nav a {
     color: #c6c6c6;
-    font-size:12px; 
-     /*文字居中   高度是父级高度既可  */
+    font-size: 12px;
+    /*文字居中   高度是父级高度既可  */
     line-height: 35px;
-   padding: 0 6px;
+    padding: 0 6px;
 }
+
 /*hover伪类 */
-.wrapper .top-nav-wrap .top-nav a:hover{
+.wrapper .top-nav-wrap .top-nav a:hover {
     color: #f40;
 }
-.wrapper .top-nav-wrap .top-nav .china{
+
+.wrapper .top-nav-wrap .top-nav .china {
     color: #3c3c3c;
     line-height: 35px;
     font-size: 12px;
 }
+
+.wrapper .top-nav-wrap .top-nav .bg-pic {
+    display: inline-block;
+    width: 6px;
+    height: 3px;
+    background-image:url(img/xsj.png);
+    background-size:100% 100%;
+}
+
 .wrapper .search-wrap {
     width: 100%;
     height: 97px;
@@ -68,14 +85,14 @@ body {
 
 .wrapper .screen-nav {
     width: 1190px;
-    height:30px;
+    height: 30px;
     background-color: rgb(243, 156, 125);
-    margin:0 auto;
+    margin: 0 auto;
 }
 
 .wrapper .screen-box {
     width: 1190px;
-    height:700px;
-    background-color:chocolate;
-    margin:0 auto;
+    height: 700px;
+    background-color: chocolate;
+    margin: 0 auto;
 }
